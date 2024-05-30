@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Algo et structure de donnes",
+    "teacher": "Cheikh Dhib",
+    "description": "Nous étudions le concept des algorithmes et langage C : les piles, les files, les listes chaînées, les arbres et les graphes.",
+    "number_of_hours": 46,
+    "semester": "S1"
+  },
+  {
+    "title": "Reseau avance",
+    "teacher": "Saadbouh Cheikh El mehdi",
+    "description": "Nous prenons le concepts du réseau, les couches, le modèle OSI et ses couches, l'IPv4 et l'IPv6.",
+    "number_of_hours": 46,
+    "semester": "S1"
+  },
+
+  {
+    "title": "Gestion des entreprises",
+    "teacher": "Hammady Rabeh",
+    "description": "Nous prenons la conception de gestion des entreprises : le VAN, le TRI, le DR, et le seuil de rentabilité.",
+    "number_of_hours": 26,
+    "semester": "S1"
+  },
+  {
+    "title": "Base de données avancées",
+    "teacher": "Mohamed Abdallahi Amar",
+    "description": "Nous prenons les concepts de base de données et PL/SQL, ainsi que les vues, les profils, la gestion des utilisateurs et les déclencheurs.",
+    "number_of_hours": 46,
+    "semester": "S1"
+  },
+  {
+    "title": "Python",
+    "teacher": "Mohamedou Cheikh Tourad",
+    "description": "Nous étudions Django, REST Framework, FastAPI et l'architecture Python.",
+    "number_of_hours": 46,
+    "semester": "S1"
+  },
+  {
+    "title": "Java Avancé",
+    "teacher": "Moussa Demba Ba",
+    "description": "Nous prenons les concepts avancés de Java : héritage, DAO, communication avec la base de données et LinkedList.",
+    "number_of_hours": 46,
+    "semester": "S1"
+  },
+  {
+    "title": "Systèmes",
+    "teacher": "Naji Taleb",
+    "description": "Nous étudions Linux et tous ses concepts, ainsi que le langage de script.",
+    "number_of_hours": 46,
+    "semester": "S1"
+  },
+  {
+    "title": "Comptabilité et Etats Financiers",
+    "teacher": "Sidaty Med Mahmoud",
+    "description": "Nous étudions le bilan, le journal, le compte de résultat, la balance et le grand livre.",
+    "number_of_hours": 26,
+    "semester": "S1"
+  },
+  {
+    "title": "Anglais",
+    "teacher": "Marieme Sidi Ali",
+    "description": "Ce cours porte sur l'apprentissage de la langue anglaise.",
+    "number_of_hours": 26,
+    "semester": "S1"
+  }
+]

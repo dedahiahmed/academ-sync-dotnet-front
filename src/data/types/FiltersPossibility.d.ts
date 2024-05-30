@@ -1,0 +1,1 @@
+type FiltersPossibility = FormationFilterType;

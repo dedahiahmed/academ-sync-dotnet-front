@@ -1,0 +1,17 @@
+[
+  {
+    "thumbnail": "/assets/images/programmation.jpg",
+    "title": "Module de programmation",
+    "description": "Dans le module de programmation, nous aborderons Java, les algorithmes et Python."
+  },
+  {
+    "thumbnail": "/assets/images/databases.png",
+    "title": "Module de developpement",
+    "description": "Dans le module de développement, nous découvrirons les réseaux avancés, les systèmes de gestion de base de données avancés, les systèmes Linux, les interfaces homme-machine, R.O, et bien d'autres encore.."
+  },
+  {
+    "thumbnail": "/assets/images/compta.jpg",
+    "title": "Module de gestion",
+    "description": "Le module de gestion comprend la comptabilité, les états financiers, la gestion d'entreprise, le contrôle de gestion, ainsi que d'autres sujets essentiels."
+  }
+]

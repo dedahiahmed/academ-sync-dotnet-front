@@ -1,0 +1,193 @@
+[
+  {
+    "semestre": "S1",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Comptabilité sectorielle",
+    "number_of_hours": 46,
+    "credits": 6,
+    "description": "Dans le module 'Comptabilité sectorielle', les étudiants explorent les pratiques comptables spécialisées adaptées à différents secteurs. Plus précisément, dans le segment se concentrant sur la 'Comptabilité des concessions', les étudiants explorent les principes comptables pertinents pour les opérations de concession. Cela inclut une étude approfondie des axes suivants : Comptabilité agricole, Comptabilité des assurances et Comptabilité bancaire."
+  },
+  {
+    "semestre": "S1",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Consolidation des entreprises",
+    "number_of_hours": 26,
+    "credits": 3,
+    "description": "Dans le module 'Consolidation des entreprises', les étudiants explorent les principes et les pratiques de consolidation financière nécessaires à la compréhension des états financiers consolidés des groupes d'entreprises. Ce module aborde les éléments suivants : Groupes et périmètre de consolidation, Méthodes de consolidation, Techniques de consolidation et Reporting de consolidation."
+  },
+  {
+    "semestre": "S1",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Théorie financière",
+    "number_of_hours": 46,
+    "credits": 5,
+    "description": "Le module 'Théorie financière' explore les fondements théoriques et les applications pratiques des concepts financiers essentiels. Les axes du cours comprennent : AXE1: Arbitrage, AXE2: Coût du capital et structures de l’entreprise, AXE3: Politique de dividendes, AXE4: Théorie d’agence."
+  },
+  {
+    "semestre": "S1",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Droit des sociétés",
+    "number_of_hours": 26,
+    "credits": 3,
+    "description": "Le module 'Droit des sociétés' examine les principes juridiques régissant la création, la gestion et la dissolution des sociétés commerciales. Les axes du cours incluent : AXE1: Acte juridique constitutif, AXE2: Personnalité et forme des sociétés, AXE3: Modifications du capital social, AXE4: Fusion, Scission, AXE5: Dissolution des sociétés."
+  },
+  {
+    "semestre": "S1",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Contrôle de gestion approfondi",
+    "number_of_hours": 46,
+    "credits": 5,
+    "description": "Le module 'Contrôle de gestion approfondi' explore en profondeur les pratiques et les outils du contrôle de gestion. Les axes du cours comprennent : AXE1: Contrôle de gestion : données de la gestion et système d’information, AXE2: Outils du contrôle de gestion, AXE3: Gestion budgétaire, AXE4: Initiation à la qualité totale."
+  },
+  {
+    "semestre": "S1",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Fiscalité approfondie",
+    "number_of_hours": 46,
+    "credits": 5,
+    "description": "Le module 'Fiscalité approfondie' explore en profondeur les différentes dimensions de la fiscalité, couvrant une gamme d'impôts et de taxes ainsi que les incitations fiscales. Les axes du cours incluent : AXE1: Types d’impôts et Taxes, AXE2: Incitations fiscales, AXE3: Fraudes fiscales, AXE4: Paradis fiscaux, AXE5: Optimisation de la gestion fiscale, AXE6: Procédures fiscales."
+  },
+  {
+    "semestre": "S1",
+    "type_du_module": "OPTIONNEL",
+    "intitulé_du_module": "Communication et Développement personnel",
+    "number_of_hours": 26,
+    "credits": 2,
+    "description": "Le module 'Communication et Développement personnel' propose aux étudiants des outils et des techniques pour améliorer leurs compétences en communication et leur développement personnel. Les axes du cours incluent : AXE1: Difficultés de communication et remèdes, AXE2: Techniques de communication écrite (prise de notes, synthèse, PV…), AXE3: Techniques de communication orale (prise de parole en public, diriger des réunions, présenter des exposés), AXE4: NTIC comme outil de communication (PowerPoint…), AXE5: Modèles pour développer la confiance en soi et gérer le stress, AXE6: Acquérir les méthodes et outils nécessaires pour assurer son développement et son évolution professionnels."
+  },
+  {
+    "semestre": "S1",
+    "type_du_module": "OPTIONNEL",
+    "intitulé_du_module": "Anglais des affaires",
+    "number_of_hours": 26,
+    "credits": 2,
+    "description": "Le module 'Anglais des affaires' offre aux étudiants l'opportunité d'améliorer leurs compétences linguistiques spécifiques au contexte des affaires. Les axes du cours incluent : AXE1: Prise de contacts commerciaux et professionnels, AXE2: Communication par téléphone et par mail, AXE3: Communiquer au quotidien et sur des faits passés, AXE4: Planifier son activité ; faire des projets et des prévisions, AXE5: Parler des meetings et des voyages, AXE6: Participer à des réunions, prendre des notes, rédiger des comptes."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Normes comptables internationales",
+    "number_of_hours": 46,
+    "credits": 6,
+    "description": "Le module 'Normes comptables internationales' explore les normes et les principes comptables utilisés à l'échelle mondiale pour établir et présenter les états financiers. Les éléments du cours comprennent : AXE1: Aperçu sur les institutions de normalisation internationales, AXE2: Base conceptuelle de la normalisation, AXE3: Normes 'immobilisations', AXE4: Normes 'stocks', AXE5: Autres normes de référence."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Audit financier et révision des comptes",
+    "number_of_hours": 26,
+    "credits": 3,
+    "description": "Le module 'Audit financier et révision des comptes' explore les principes, les techniques et les normes utilisés dans le processus d'audit financier et de révision des comptes. Les axes du cours comprennent : AXE1: Applications des méthodes quantitatives en Audit, AXE2: Audit des données répétitives, AXE3: Audit des données non répétitives et des estimations, AXE4: Normes internationales de l’Audit, AXE5: Spécificités, juridiques et techniques du commissariat au compte."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Finance internationale",
+    "number_of_hours": 46,
+    "credits": 5,
+    "description": "Le module 'Finance internationale' aborde les concepts et les pratiques financières spécifiques aux marchés mondiaux. Les axes du cours comprennent : AXE1: Marché des changes, AXE2: Gestion des risques de taux de change, AXE3: Instruments de couverture de risques de change, AXE4: Régimes de changes, AXE5: Régularisation des flux financiers internationaux."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Analyse stratégique",
+    "number_of_hours": 46,
+    "credits": 6,
+    "description": "Le module 'Analyse stratégique' se concentre sur l'analyse approfondie des environnements concurrentiels et des stratégies d'entreprise. Les axes du cours comprennent : AXE1: Analyse concurrentielle, AXE2: Avantage compétitif et position concurrentielle, AXE3: Segmentation stratégique, AXE4: Spécialisation / différenciation, AXE5: Modèles d’analyse de portefeuille (BCG, …)."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Méthodes quantitatives",
+    "number_of_hours": 46,
+    "credits": 5,
+    "description": "Le module 'Méthodes quantitatives' explore les techniques et les modèles mathématiques utilisés dans l'analyse financière et économique. Les axes du cours comprennent : AXE1: Introduction, AXE2: Modèles linéaires, AXE3: Processus stochastique, AXE4: Processus de Markov, AXE5: Mouvement brownien (simple, géométrique), AXE6: Processus d’Itô."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Fiscalité internationale",
+    "number_of_hours": 26,
+    "credits": 3,
+    "description": "Le module 'Fiscalité internationale' examine les principes, les sources et les enjeux de la fiscalité dans un contexte international. Les axes du cours comprennent : AXE1: Historique de la fiscalité internationale, AXE2: Principes de la fiscalité internationale, AXE3: Sources de droit de la fiscalité internationale, AXE4: Exonération et double-imposition, AXE5: Fiscalité comparative."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OPTIONNEL",
+    "intitulé_du_module": "Analyse des données",
+    "number_of_hours": 26,
+    "credits": 2,
+    "description": "Le module 'Analyse des données' propose aux étudiants une exploration des outils et des techniques d'analyse de données pertinentes dans le contexte des affaires. Les axes du cours comprennent : AXE1: Logiciels comptables (utilisation et paramétrage), AXE2: Logiciels d’analyse de données (SPSS, EVIEWS)."
+  },
+  {
+    "semestre": "S2",
+    "type_du_module": "OPTIONNEL",
+    "intitulé_du_module": "Théorie des marchés",
+    "number_of_hours": 26,
+    "credits": 2,
+    "description": "Le module 'Théorie des marchés' explore les différents types de marchés et les modèles théoriques qui les décrivent. Les axes du cours comprennent : AXE1: La concurrence pure et parfaite, AXE2: Le monopole, AXE3: La concurrence monopolistique, AXE4: L’oligopole, AXE5: L’équilibre général."
+  },
+  {
+    "semestre": "S3",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Comptabilité financière Avancée",
+    "number_of_hours": 46,
+    "credits": 6,
+    "description": "Le module 'Comptabilité financière avancée' approfondit les concepts et les applications de la comptabilité financière. Les axes du cours comprennent : AXE1: Théorie comptable (avec positionnement du référentiel mauritanien), AXE2: Difficultés comptables, AXE3: Comptabilité et la finance islamique."
+  },
+  {
+    "semestre": "S3",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Evaluation des entreprises",
+    "number_of_hours": 26,
+    "credits": 4,
+    "description": "Le module 'Evaluation des entreprises' explore les différentes méthodes utilisées pour évaluer la valeur des entreprises. Les axes du cours comprennent : AXE1: Méthode basée sur la VSB, AXE2: Méthode basée sur les CPNE, AXE3: Méthodes de flux de trésorerie, AXE4: Méthodes boursières, AXE5: Autres méthodes."
+  },
+  {
+    "semestre": "S3",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Finance des marchés",
+    "number_of_hours": 46,
+    "credits": 5,
+    "description": "Le module 'Finance des marchés' explore les concepts et les pratiques liés aux marchés financiers, à la gestion de portefeuille, à l'efficience des marchés et aux instruments financiers. Les axes du cours comprennent : AXE1: Marchés financiers, AXE2: Gestion de portefeuille, AXE3: Efficience des marchés, AXE4: Instruments financiers et gestion des risques."
+  },
+  {
+    "semestre": "S3",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Stratégie d'entreprises",
+    "number_of_hours": 46,
+    "credits": 6,
+    "description": "Le module 'Stratégie d’entreprise' explore les théories, les catégories et les approches du management stratégique, y compris les aspects liés aux structures organisationnelles, au changement organisationnel, et à la planification et au management stratégique. Les axes du cours comprennent : AXE1: Théories de structures, AXE2: Catégorie des structures, AXE3: Changement organisationnel, AXE4: Nouvelles approches structurelles, AXE5: Planification et management stratégique (culture et identité de l’entreprise, conception des stratégies)."
+  },
+  {
+    "semestre": "S3",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Séries temporelles",
+    "number_of_hours": 46,
+    "credits": 5,
+    "description": "Le module 'Séries temporelles' aborde les concepts et les techniques d'analyse des données temporelles. Les axes du cours comprennent : AXE1: Processus ARMA, AXE2: Tendances et volatilité, AXE3: Modèles à correction d’erreur (ECM et cointégration), AXE4: Application (Eviews, R, SPSS…)."
+  },
+  {
+    "semestre": "S3",
+    "type_du_module": "OPTIONNEL",
+    "intitulé_du_module": "Droit pénal des affaires",
+    "number_of_hours": 26,
+    "credits": 4,
+    "description": "Le module 'Droit pénal des affaires' explore les aspects juridiques liés aux infractions pénales dans le domaine des affaires. Les axes du cours comprennent : AXE1: Abus de confiance, AXE2: Recel, AXE3: Blanchiment, AXE4: Faux, AXE5: Corruption, AXE6: Banqueroute."
+  },
+  {
+    "semestre": "S3",
+    "type_du_module": "OPTIONNEL",
+    "intitulé_du_module": "Méthodologie de recherche",
+    "number_of_hours": 26,
+    "credits": 4,
+    "description": "Le module 'Méthodologie de recherche' explore les méthodes et les techniques de recherche académique. Les axes du cours comprennent : AXE1: Ciblage des sujets de recherche, AXE2: Formulation des problématiques et hypothèses, des thèses et des antithèses, AXE3: Ciblage de la méthodologie appropriée, AXE4: Typologies des données et échantillonnage, AXE5: Techniques de collecte de données (l’entretien et le questionnaire, l’appel téléphonique, l’Internet…), AXE6: Analyse des données collectées et vérification des hypothèses, AXE7: Organisation du travail de recherche (composantes, étapes à affranchir,…), AXE8: Rédaction, formulation des synthèses, des conclusions, des résumés, des commentaires…etc., AXE9: Soutenance d’un travail face à un jury."
+  },
+  {
+    "semestre": "S4",
+    "type_du_module": "OBLIGATOIRE",
+    "intitulé_du_module": "Mémoire ou Stage de Fin d’Etudes",
+    "credits": 30,
+    "description": "Le module 'Mémoire ou Stage de Fin d’Etudes' constitue la dernière étape du parcours académique, où les étudiants ont l'opportunité de réaliser un mémoire de recherche ou d'effectuer un stage dans une entreprise ou une organisation pertinente. Ce projet final permet aux étudiants de mettre en pratique les connaissances acquises tout au long de leur formation et de démontrer leur maîtrise des concepts et des compétences dans leur domaine d'études."
+  }
+]
