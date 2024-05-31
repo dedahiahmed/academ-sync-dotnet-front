@@ -12,8 +12,8 @@ const frontServerUrl = process.env.Front_SERVER_URL || "http://localhost:3000/";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/assets/academ.svg",
-    apple: "/assets/academ.svg",
+    icon: "/assets/academ.ico",
+    apple: "/assets/academ.ico",
   },
   metadataBase: new URL(frontServerUrl),
   title: "synchronisation academical",
