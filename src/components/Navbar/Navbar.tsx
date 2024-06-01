@@ -31,7 +31,7 @@ export default function Navbar() {
   );
 
   const handleSignOut = () => {
-    localStorage.removeItem("accessToken"); // Clear access token from local storage
+    localStorage.removeItem("access_token"); // Clear access token from local storage
     window.location.reload(); // Refresh the page
   };
   return (

@@ -10,17 +10,17 @@ export async function POST(request: Request): Promise<Response> {
       },
       body: JSON.stringify(requestData), // Pass the JSON data directly
     });
-
+    console.log("response",response)
     if (!response.ok) {
       throw new Error(`Failed to fetch: ${response.statusText}`);
     }
 
     // Parse the JSON body if it's present
     const responseBody = await response.json();
-    const { access_token } = responseBody;
+    const { token } = responseBody;
 
     // Set the access_token in cookies
-    const cookies = `access_token=${access_token}; Path=/; HttpOnly; SameSite=Strict`;
+    const cookies = `access_token=${token}; Path=/; HttpOnly; SameSite=Strict`;
 
     // Log the response details
     const logResponse = {

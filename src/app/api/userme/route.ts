@@ -8,13 +8,13 @@ export async function GET(request: Request): Promise<Response> {
     const headers: Record<string, string> = {
       "Content-Type": "application/json",
     };
-
+console.log("token",token)
     // Only include the Authorization header if token is not null
     if (token !== null) {
       headers.Authorization = `Bearer ${token}`;
       console.log("token", token);
     }
-
+      console.log("headers", headers);
     const response = await fetch(url, {
       method: "GET",
       headers: headers,

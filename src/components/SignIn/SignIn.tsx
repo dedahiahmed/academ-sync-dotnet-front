@@ -33,7 +33,7 @@ export default function SignIn() {
       localStorage.clear();
       Cookies.remove("accessToken");
       const encryptedToken = CryptoJS.AES.encrypt(
-        responseData.access_token,
+        responseData.token,
         "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcwNzg2MjU4NCwiaWF0IjoxNzA3ODYyNTg0fQ.5Ab6-iu6ds1--VS6JG5aLkpKSJggIL6f8c-nam79pPM"
       ).toString();
       // localStorage.setItem("accessToken", responseData.access_token);
@@ -68,21 +68,21 @@ export default function SignIn() {
               </label>
               <div className="mt-2">
                 <input
-                  {...register("email", {
-                    required: "Email is required",
+                  {...register("username", {
+                    required: "username is required",
                     pattern: {
                       value: /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/,
-                      message: "Invalid email address",
+                      message: "Invalid username address",
                     },
                   })}
-                  id="email"
-                  name="email"
+                  id="username"
+                  name="username"
                   type="email"
                   className="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6"
                 />
 
-                {errors.email && (
-                  <p className="text-red-500">{errors.email.message}</p>
+                {errors.username && (
+                  <p className="text-red-500">{errors.username.message}</p>
                 )}
               </div>
             </div>
