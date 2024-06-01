@@ -19,9 +19,9 @@ export const middleware = async (req: NextRequest) => {
 
       // Get the access token from cookies
       const accessToken = cookies["access_token"] || "";
-
+console.log("accessToken",accessToken)
       // Fetch user data from the API, including the access token dynamically
-      const response = await fetch("https://localhost:7033/api/Auth/me", {
+      const response = await fetch("http://localhost:5184/api/Auth/me", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${accessToken}`, // Include access token in the Authorization header

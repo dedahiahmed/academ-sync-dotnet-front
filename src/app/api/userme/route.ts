@@ -14,7 +14,7 @@ console.log("token",token)
       headers.Authorization = `Bearer ${token}`;
       console.log("token", token);
     }
-      console.log("headers", headers);
+
     const response = await fetch(url, {
       method: "GET",
       headers: headers,

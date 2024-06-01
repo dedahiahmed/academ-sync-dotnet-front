@@ -18,16 +18,13 @@ export default function SignUp() {
   const onSubmit = async (data: SignUp) => {
     try {
       let response;
-      const CreateUser: user = {
-        first_name: data.first_name,
-        last_name: data.last_name,
+
+      let submitData = {
+        firstName: data.firstName,
+        lastName: data.lastName,
         email: data.email,
         password: data.password,
         role: "STUDENT",
-      };
-      const UserId = await createUser(CreateUser);
-      let submitData = {
-        user_id: UserId,
         sector: data.sector,
       };
 
@@ -69,7 +66,7 @@ export default function SignUp() {
           </div>
           <div className="w-full">
             <InputText
-              name="last_name"
+              name="lastName"
               label="prénom"
               type="text"
               placeholder="prénom"
@@ -81,7 +78,7 @@ export default function SignUp() {
 
           <div className="w-full">
             <InputText
-              name="first_name"
+              name="firstName"
               label="Nom"
               type="text"
               placeholder="Nom"

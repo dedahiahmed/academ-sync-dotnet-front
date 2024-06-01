@@ -27,9 +27,10 @@ export default function CourseForm() {
       setLoading(true);
 
       const responseTeacher = await getCurrentUser();
+      console.log("responseTeacher","responseTeacher")
       const TeacherId = responseTeacher.id;
       //  Upload files
-      const uploadedFileIds = await uploadMultiplesFiles("course", files);
+      const uploadedFileIds = await uploadMultiplesFiles("courses", files);
 
       // Construct request data with uploaded file UUIDs
       const requestData = {

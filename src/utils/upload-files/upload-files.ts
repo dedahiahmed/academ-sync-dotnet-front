@@ -1,40 +1,46 @@
-import { supabase } from "../supabase/supabase";
-import { v4 as uuidv4 } from "uuid";
 
-interface UploadedData {
-  id: string;
-  path: string;
+import {v4 as uuidv4} from "uuid";
+import {supabase} from "@/utils/supabase/supabase";
+
+interface UploadedFile {
+
+  publicURL: string;
 }
 
 export default async function uploadMultiplesFiles(
-  buketName: string,
-  files: File[]
+
+    bucketName: string,
+
+    files: File[]
 ) {
   try {
-    const uploadedFileIds: string[] = [];
+    const uploadedFiles: UploadedFile[] = [];
 
     for (const file of files) {
       const validFileName = file.name.replace(
-        /[^a-zA-Z0-9-._*'()&$@=;:+,?/ ]/g,
-        ""
+          /[^a-zA-Z0-9-._*'()&$@=;:+,?/ ]/g,
+          ""
       );
-      const { data, error } = await supabase.storage
-        .from(buketName)
-        .upload(`/course/${uuidv4()}/${validFileName}`, file);
+      const {data, error} = await supabase.storage
+          .from(bucketName)
+          .upload(`/course/${uuidv4()}/${validFileName}`, file);
 
-      if (error) {
+      if(error) {
         console.error("Error uploading file:", error);
         throw new Error(error.message);
       }
 
-      // If data is not null, it should have both id and path properties
       if (data) {
-        const { id } = data as UploadedData; // Casting data to UploadedData
-        uploadedFileIds.push(id);
+        const {data: fileFromStorage} = supabase.storage
+            .from(bucketName)
+            .getPublicUrl(data.path);
+        uploadedFiles.push({
+          publicURL: fileFromStorage.publicUrl
+        });
       }
     }
 
-    return uploadedFileIds;
+    return uploadedFiles;
   } catch (error: any) {
     console.error("An unexpected error occurred:", error);
     throw new Error(error);
