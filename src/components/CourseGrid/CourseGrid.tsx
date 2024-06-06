@@ -11,8 +11,9 @@ interface CourseGridProps {
     teacher: {
       matter?: string;
     };
+    files:string[]
   }[];
-  files: CourseUrl[];
+  files?: string[];
 }
 
 const CourseGrid: React.FC<CourseGridProps> = ({ data, files }) => {
@@ -36,6 +37,8 @@ const CourseGrid: React.FC<CourseGridProps> = ({ data, files }) => {
     currentPage * pageSize
   );
 
+  console.log("files,files",files)
+
   return (
     <div>
       {isLoading ? ( // Display skeleton when loading
@@ -55,7 +58,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({ data, files }) => {
                   key={idx}
                   title={item.title}
                   semester={item.semester}
-                  files={files}
+                  files={item.files}
                   type={item.type}
                   matter={item.teacher ? item.teacher.matter : undefined}
                 />

@@ -6,7 +6,7 @@ interface CourseCardProps {
   type: string;
   semester: string;
   matter?: string;
-  files: CourseUrl[];
+  files: string[];
 }
 
 const CourseCard: React.FC<CourseCardProps> = ({

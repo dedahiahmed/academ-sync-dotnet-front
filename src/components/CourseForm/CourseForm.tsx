@@ -15,6 +15,7 @@ import { getCurrentUser } from "@/utils/user-me/userme";
 import uploadMultiplesFiles from "@/utils/upload-files/upload-files";
 import { Spin } from "antd";
 import { accessToken } from "@/utils/token/token";
+import insertCourse from "@/utils/insertCourse/insertCourse";
 
 export default function CourseForm() {
   const [files, setFiles] = useState<File[]>([]);
@@ -29,13 +30,14 @@ export default function CourseForm() {
       const responseTeacher = await getCurrentUser();
       console.log("responseTeacher","responseTeacher")
       const TeacherId = responseTeacher.id;
+      console.log("TeacherId",TeacherId)
       //  Upload files
       const uploadedFileIds = await uploadMultiplesFiles("courses", files);
 
       // Construct request data with uploaded file UUIDs
       const requestData = {
         ...data,
-        teacher_id: TeacherId,
+        teacherId: Number(TeacherId),
         files: uploadedFileIds,
       };
 
@@ -49,7 +51,7 @@ export default function CourseForm() {
         },
         body: JSON.stringify(requestData),
       });
-
+     await insertCourse(requestData)
       if (!response.ok) {
         const errorData = await response.json();
         throw new Error(errorData.detail);
@@ -61,7 +63,7 @@ export default function CourseForm() {
       console.error("Error:", error);
     } finally {
       setLoading(false);
-      window.location.href = "/gestion-cours";
+    //  window.location.href = "/gestion-cours";
       // Set loading to false when request completes
     }
   };

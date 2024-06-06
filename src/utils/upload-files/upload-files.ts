@@ -1,20 +1,13 @@
-
 import {v4 as uuidv4} from "uuid";
 import {supabase} from "@/utils/supabase/supabase";
 
-interface UploadedFile {
-
-  publicURL: string;
-}
 
 export default async function uploadMultiplesFiles(
-
     bucketName: string,
-
     files: File[]
 ) {
   try {
-    const uploadedFiles: UploadedFile[] = [];
+    const uploadedFiles: string[] = []; // Changed the type to string array
 
     for (const file of files) {
       const validFileName = file.name.replace(
@@ -25,7 +18,7 @@ export default async function uploadMultiplesFiles(
           .from(bucketName)
           .upload(`/course/${uuidv4()}/${validFileName}`, file);
 
-      if(error) {
+      if (error) {
         console.error("Error uploading file:", error);
         throw new Error(error.message);
       }
@@ -34,9 +27,7 @@ export default async function uploadMultiplesFiles(
         const {data: fileFromStorage} = supabase.storage
             .from(bucketName)
             .getPublicUrl(data.path);
-        uploadedFiles.push({
-          publicURL: fileFromStorage.publicUrl
-        });
+        uploadedFiles.push(fileFromStorage.publicUrl); // Push the URL directly
       }
     }
 

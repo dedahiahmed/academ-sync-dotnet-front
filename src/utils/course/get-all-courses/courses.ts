@@ -15,7 +15,7 @@ export async function getAllCourses(): Promise<Record<string, any>> {
     }
 
     const courses = await response.json();
-    return courses.data;
+    return courses;
   } catch (error) {
     console.error("Error fetching courses:", error);
     throw new Error("An error occurred while fetching courses data");

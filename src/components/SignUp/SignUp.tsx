@@ -46,6 +46,9 @@ export default function SignUp() {
     } catch (error) {
       console.error("Error:", error);
     }
+    finally {
+      window.location.href = "/";
+    }
   };
 
   return (

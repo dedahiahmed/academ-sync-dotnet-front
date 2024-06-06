@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import semesterList from "@/data/lists/semester-list";
 import React, { useState } from "react";
 import formationData from "../../components/SearchListeZone/Components/formation.json";
-export default function page() {
+export default function Page() {
   const listOfOptions: FilterOptions[] = [
     {
       filterName: "semestre",

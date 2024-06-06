@@ -10,22 +10,18 @@ import getFilesByUUID from "@/utils/files/get-files-by-uuid/get-files-by-uuid";
 import React, { useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 
-export default function page() {
+export default function Page() {
   const [courses, setCourses] = useState<any[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
-  const [files, setFiles] = useState<CourseUrl[]>([]);
+  const [files, setFiles] = useState<string[]>([]);
   useEffect(() => {
     const fetchCourses = async () => {
       try {
         const coursesData = await getAllCourses();
-        console.log("course data", coursesData[0].files);
+        console.log("course data", coursesData  );
 
-        const uuids = coursesData[0].files;
-        const responseFiles = await getFilesByUUID("course", uuids);
-        let responseFile = { mappedFiles: responseFiles };
-        const filesUrl = responseFile.mappedFiles;
-        setFiles(filesUrl);
-        console.log("----------", responseFile);
+
+        setFiles(coursesData?.files);
 
         setCourses(coursesData);
         setLoading(false);
@@ -85,7 +81,7 @@ export default function page() {
           </div>
 
           <div className="w-full lg:flex-[2] flex-col gap-[1.56rem] ">
-            <CourseGrid data={filteredData} files={files} />
+            <CourseGrid data={filteredData} files={files } />
           </div>
         </div>
       </div>

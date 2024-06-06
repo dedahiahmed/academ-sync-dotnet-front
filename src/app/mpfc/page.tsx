@@ -7,7 +7,7 @@ import FiltersSideBar from "@/components/FiltersSideBar/FiltersSideBar";
 import FcGrid from "@/components/FcCard/Components/FcGrid";
 import priorityList from "@/data/lists/priority-list";
 import { FaTimes } from "react-icons/fa";
-export default function page() {
+export default function Page() {
   const listOfOptions: FilterOptions[] = [
     {
       filterName: "semestre",

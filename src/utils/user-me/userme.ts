@@ -9,7 +9,6 @@ export async function getCurrentUser(): Promise<Record<string, any>> {
         Authorization: accessToken, // Include the authorization token
       },
     });
-    console.log("tokwnfinodv", accessToken);
     if (!response.ok) {
       throw new Error("Failed to fetch current user data");
     }

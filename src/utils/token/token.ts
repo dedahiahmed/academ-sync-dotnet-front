@@ -6,7 +6,7 @@ const secretKey =
 
 export const accessToken = (() => {
   const encryptedToken = Cookies.get("accessToken");
-  console.log("encryptedToken",encryptedToken)
+
   if (encryptedToken) {
     try {
       const bytes = CryptoJS.AES.decrypt(encryptedToken, secretKey);
