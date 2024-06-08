@@ -26,7 +26,7 @@ export default function SignIn() {
 
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.detail);
+        throw new Error(errorData.message);
       }
 
       const responseData = await response.json();

@@ -62,5 +62,132 @@
     "description": "Ce cours porte sur l'apprentissage de la langue anglaise.",
     "number_of_hours": 26,
     "semester": "S1"
+  },{
+  "title": "Dot Net",
+  "teacher": "Meya Haroune",
+  "description": "Nous étudions le développement d'applications avec la plateforme .NET, incluant les concepts de programmation orientée objet en C#.",
+  "number_of_hours": 46,
+  "semester": "S2"
+},
+  {
+    "title": "Contrôle de Gestion",
+    "teacher": "Sidi Mohamed Amah",
+    "description": "Nous étudions les concepts et techniques du contrôle de gestion, incluant la planification budgétaire, le calcul des coûts.",
+    "number_of_hours": 26,
+    "semester": "S2"
+  },
+
+  {
+    "title": "Génie logiciel ",
+    "teacher": "Moussa Demba Ba ",
+    "description": "Nous étudions les concepts et techniques du génie logiciel, incluant les méthodologies de développement, la modélisation UML,les tests et la maintenance des logiciels.",
+    "number_of_hours": 26,
+    "semester": "S2"
+  },
+  {
+    "title": "Architecture et administration des SGBD",
+    "teacher": "Abderahmane Sidi Elmoctar",
+    "description": "Nous étudions les concepts et techniques liés aux systèmes de gestion de bases de données (SGBD), incluant l'architecture des bases de données, la conception et la modélisation des données, le langage SQL.",
+    "number_of_hours": 46,
+    "semester": "S2"
+  },
+  {
+    "title": "Communication et Rédaction",
+    "teacher": "Alassane Dia",
+    "description": "Nous étudions la rédaction de documents professionnels, la communication écrite et orale.",
+    "number_of_hours": 26,
+    "semester": "S2"
+  },
+  {
+    "title": "IHM",
+    "teacher": "Fatimetou Abdou",
+    "description": "Nous étudions les concepts et techniques de conception des Interfaces Homme-Machine (IHM), les principes de design centré sur l'utilisateur, la prototypage d'interfaces.",
+    "number_of_hours": 46,
+    "semester": "S2"
+  },
+  {
+    "title": "Introduction à R.O",
+    "teacher": "Hamed ould Sidi",
+    "description": "Nous étudions la modélisation mathématique, la programmation linéaire, les méthodes de résolution de problèmes d'optimisation, .",
+    "number_of_hours": 46,
+    "semester": "S2"
+  },
+  {
+    "title": "JEE",
+    "teacher": "Abderahmane Sidi Elmoctar",
+    "description": "Nous étudions du développement d'applications d'entreprise avec Java Enterprise Edition (JEE), incluant servlets, JSP, JSF, JPA, JTA pour la gestion des transactions et la sécurité.",
+    "number_of_hours": 26,
+    "semester": "S2"
+  },
+  {
+    "title": "Comptabilité et états financiers II",
+    "teacher": "Sidaty Med Mahmoud",
+    "description": "Nous étudions le bilan, le journal, le compte de résultat, la balance et le grand livre.",
+    "number_of_hours": 26,
+    "semester": "S2"
+  },
+  {
+    "title": "Sécurité informatique",
+    "teacher": "Sidi Biha",
+    "description": "Étude des principes et techniques pour protéger les systèmes informatiques contre les menaces, incluant la gestion des identités, la cryptographie, la détection d'intrusion, la sécurité des réseaux et la gestion des vulnérabilités.",
+    "number_of_hours": 46,
+    "semester": "S3"
+  },
+  {
+    "title": "Analyse de projets",
+    "teacher": "Hammady Rabeh",
+    "description": "Évaluation et planification efficaces de projets.",
+    "number_of_hours": 26,
+    "semester": "S3"
+  },
+
+  {
+    "title": "Progiciels de gestion intégrée ERP",
+    "teacher": "El Benany Med Mahmoud",
+    "description": "Étude des systèmes informatiques intégrés pour la gestion d'entreprise, couvrant la planification des ressources, la gestion des processus métier, la gestion des données et la coordination des fonctions internes.",
+    "number_of_hours": 26,
+    "semester": "S3"
+  },
+  {
+    "title": "Développement mobile",
+    "teacher": "Ahmed Mohameden",
+    "description": "Nous étudions la création d'applications pour smartphones et tablettes, incluant iOS et Android.",
+    "number_of_hours": 46,
+    "semester": "S3"
+  },
+  {
+    "title": "Gestion des projets et MS Project",
+    "teacher": "Moussa Demba Ba",
+    "description": "Exploration des principes de gestion de projets et utilisation de l'outil MS Project pour la planification, le suivi et le contrôle des projets.",
+    "number_of_hours": 26,
+    "semester": "S3"
+  },
+  {
+    "title": "Outils de développement",
+    "teacher": "Naji Taleb",
+    "description": "Étude des outils logiciels essentiels pour le développement, incluant les IDE, les VCS, les build tools, les tests automatisés et les techniques de débogage.",
+    "number_of_hours": 46,
+    "semester": "S3"
+  },
+  {
+    "title": "Droit commercial",
+    "teacher": "Negrech",
+    "description": "Étude des lois et règlements régissant les activités commerciales, y compris les contrats, la propriété intellectuelle, les sociétés et les litiges.",
+    "number_of_hours": 26,
+    "semester": "S3"
+  },
+  {
+    "title": "Big Data",
+    "teacher": "Fatimetou Abdou",
+    "description": "Étude des méthodes et technologies pour la gestion, l'analyse et l'exploitation de grands ensembles de données, incluant les outils de stockage distribué comme Hadoop.",
+    "number_of_hours": 46,
+    "semester": "S3"
+  },
+  {
+    "title": "Frameworks JEE",
+    "teacher": "Abderahmane Sidi Elmoctar",
+    "description": "Exploration des frameworks Java EE pour simplifier le développement d'applications d'entreprise, incluant des frameworks tels que Spring, Hibernate, JavaServer Faces (JSF), et Apache Struts.",
+    "number_of_hours": 46,
+    "semester": "S3"
   }
 ]
